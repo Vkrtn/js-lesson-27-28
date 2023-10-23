@@ -276,10 +276,10 @@ body {
   left: -40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .slider {
-    -webkit-transform: translateX(-14%) scale(0.6);
-        -ms-transform: translateX(-14%) scale(0.6);
-            transform: translateX(-14%) scale(0.6);
+    -webkit-transform: translateX(-17%) scale(0.6);
+        -ms-transform: translateX(-17%) scale(0.6);
+            transform: translateX(-17%) scale(0.6);
   }
 }/*# sourceMappingURL=style.css.map */
