@@ -45,7 +45,7 @@ body {
     display: flex;
     gap: 20px;
     overflow: hidden;
-    width: 100%;
+    width: 500px;
     height: 500px;
     position: relative;
   }
@@ -81,5 +81,13 @@ height: 100%;
 }.slider-btn_prev{
   left: -40px;
 }
+}
+
+@media (max-width:768px) {
+  .slider{
+    transform:
+    translateX(-14%)
+     scale(.6);
+  }
 }
 
