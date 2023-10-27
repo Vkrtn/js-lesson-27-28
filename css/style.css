@@ -276,6 +276,27 @@ body {
   left: -40px;
 }
 
+.sider-bots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.sider-bots .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.sider-bots .dot:hover {
+  -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+          transform: scale(0.8);
+}
+.sider-bots .dot-active {
+  background-color: black;
+}
+
 @media (max-width: 600px) {
   .slider {
     -webkit-transform: translateX(-17%) scale(0.6);
